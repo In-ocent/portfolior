@@ -100,13 +100,13 @@ body{
 
 @keyframes floatimg {
     0%{
-        transform: translateX(0);
+        transform: translateY(0);
     }
     50%{
-        transform: translateX(-24px);
+        transform: translateY(-24px);
     }
     100%{
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
