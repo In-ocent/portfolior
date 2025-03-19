@@ -254,6 +254,42 @@ body{
 }
 
 /* blog section starts */
+ /* Responsive Fixes */
+  @media (max-width: 768px) {
+    .modal-dialog {
+      max-width: 95%;
+    }
+    .blogpost {
+      width: 100%;
+    }
+  }
+ /* Blog Section End */
+
+@media (max-width: 768px) {
+    .row {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .blogpost {
+        width: 100%;
+    }
+}
+
+.blogpost {
+    max-width: 100%;  /* Prevents stretching */
+}
+.modal-dialog {
+    max-width: 90%; /* Ensures it fits */
+}
+.card img, .modal img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
 .blog{
     background-color: #f2f2ff;
 }
